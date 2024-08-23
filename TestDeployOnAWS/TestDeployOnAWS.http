@@ -1,0 +1,6 @@
+@TestDeployOnAWS_HostAddress = http://localhost:5180
+
+GET {{TestDeployOnAWS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
